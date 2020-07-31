@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242FE8F124D3BB4400D42867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE8F024D3BB4400D42867 /* AppDelegate.swift */; };
+		242FE8F324D3BB4400D42867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE8F224D3BB4400D42867 /* SceneDelegate.swift */; };
+		242FE8F524D3BB4400D42867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE8F424D3BB4400D42867 /* ViewController.swift */; };
+		242FE8F824D3BB4400D42867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242FE8F624D3BB4400D42867 /* Main.storyboard */; };
+		242FE8FA24D3BB4600D42867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242FE8F924D3BB4600D42867 /* Assets.xcassets */; };
+		242FE8FD24D3BB4600D42867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242FE8FB24D3BB4600D42867 /* LaunchScreen.storyboard */; };
+		242FE90824D3BB4700D42867 /* payrabbit_datafono_app_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE90724D3BB4700D42867 /* payrabbit_datafono_app_iosTests.swift */; };
+		242FE91324D3BB4700D42867 /* payrabbit_datafono_app_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE91224D3BB4700D42867 /* payrabbit_datafono_app_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		242FE90424D3BB4700D42867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242FE8E524D3BB4400D42867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242FE8EC24D3BB4400D42867;
+			remoteInfo = "payrabbit-datafono-app-ios";
+		};
+		242FE90F24D3BB4700D42867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242FE8E524D3BB4400D42867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242FE8EC24D3BB4400D42867;
+			remoteInfo = "payrabbit-datafono-app-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242FE8ED24D3BB4400D42867 /* payrabbit-datafono-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "payrabbit-datafono-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		242FE8F024D3BB4400D42867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		242FE8F224D3BB4400D42867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		242FE8F424D3BB4400D42867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		242FE8F724D3BB4400D42867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		242FE8F924D3BB4600D42867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		242FE8FC24D3BB4600D42867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		242FE8FE24D3BB4600D42867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		242FE90324D3BB4700D42867 /* payrabbit-datafono-app-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "payrabbit-datafono-app-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		242FE90724D3BB4700D42867 /* payrabbit_datafono_app_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payrabbit_datafono_app_iosTests.swift; sourceTree = "<group>"; };
+		242FE90924D3BB4700D42867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		242FE90E24D3BB4700D42867 /* payrabbit-datafono-app-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "payrabbit-datafono-app-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		242FE91224D3BB4700D42867 /* payrabbit_datafono_app_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payrabbit_datafono_app_iosUITests.swift; sourceTree = "<group>"; };
+		242FE91424D3BB4700D42867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242FE8EA24D3BB4400D42867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242FE90024D3BB4700D42867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242FE90B24D3BB4700D42867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242FE8E424D3BB4400D42867 = {
+			isa = PBXGroup;
+			children = (
+				242FE8EF24D3BB4400D42867 /* payrabbit-datafono-app-ios */,
+				242FE90624D3BB4700D42867 /* payrabbit-datafono-app-iosTests */,
+				242FE91124D3BB4700D42867 /* payrabbit-datafono-app-iosUITests */,
+				242FE8EE24D3BB4400D42867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		242FE8EE24D3BB4400D42867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242FE8ED24D3BB4400D42867 /* payrabbit-datafono-app-ios.app */,
+				242FE90324D3BB4700D42867 /* payrabbit-datafono-app-iosTests.xctest */,
+				242FE90E24D3BB4700D42867 /* payrabbit-datafono-app-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		242FE8EF24D3BB4400D42867 /* payrabbit-datafono-app-ios */ = {
+			isa = PBXGroup;
+			children = (
+				242FE8F024D3BB4400D42867 /* AppDelegate.swift */,
+				242FE8F224D3BB4400D42867 /* SceneDelegate.swift */,
+				242FE8F424D3BB4400D42867 /* ViewController.swift */,
+				242FE8F624D3BB4400D42867 /* Main.storyboard */,
+				242FE8F924D3BB4600D42867 /* Assets.xcassets */,
+				242FE8FB24D3BB4600D42867 /* LaunchScreen.storyboard */,
+				242FE8FE24D3BB4600D42867 /* Info.plist */,
+			);
+			path = "payrabbit-datafono-app-ios";
+			sourceTree = "<group>";
+		};
+		242FE90624D3BB4700D42867 /* payrabbit-datafono-app-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				242FE90724D3BB4700D42867 /* payrabbit_datafono_app_iosTests.swift */,
+				242FE90924D3BB4700D42867 /* Info.plist */,
+			);
+			path = "payrabbit-datafono-app-iosTests";
+			sourceTree = "<group>";
+		};
+		242FE91124D3BB4700D42867 /* payrabbit-datafono-app-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				242FE91224D3BB4700D42867 /* payrabbit_datafono_app_iosUITests.swift */,
+				242FE91424D3BB4700D42867 /* Info.plist */,
+			);
+			path = "payrabbit-datafono-app-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		242FE8EC24D3BB4400D42867 /* payrabbit-datafono-app-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242FE91724D3BB4700D42867 /* Build configuration list for PBXNativeTarget "payrabbit-datafono-app-ios" */;
+			buildPhases = (
+				242FE8E924D3BB4400D42867 /* Sources */,
+				242FE8EA24D3BB4400D42867 /* Frameworks */,
+				242FE8EB24D3BB4400D42867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "payrabbit-datafono-app-ios";
+			productName = "payrabbit-datafono-app-ios";
+			productReference = 242FE8ED24D3BB4400D42867 /* payrabbit-datafono-app-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		242FE90224D3BB4700D42867 /* payrabbit-datafono-app-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242FE91A24D3BB4700D42867 /* Build configuration list for PBXNativeTarget "payrabbit-datafono-app-iosTests" */;
+			buildPhases = (
+				242FE8FF24D3BB4700D42867 /* Sources */,
+				242FE90024D3BB4700D42867 /* Frameworks */,
+				242FE90124D3BB4700D42867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242FE90524D3BB4700D42867 /* PBXTargetDependency */,
+			);
+			name = "payrabbit-datafono-app-iosTests";
+			productName = "payrabbit-datafono-app-iosTests";
+			productReference = 242FE90324D3BB4700D42867 /* payrabbit-datafono-app-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		242FE90D24D3BB4700D42867 /* payrabbit-datafono-app-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242FE91D24D3BB4700D42867 /* Build configuration list for PBXNativeTarget "payrabbit-datafono-app-iosUITests" */;
+			buildPhases = (
+				242FE90A24D3BB4700D42867 /* Sources */,
+				242FE90B24D3BB4700D42867 /* Frameworks */,
+				242FE90C24D3BB4700D42867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242FE91024D3BB4700D42867 /* PBXTargetDependency */,
+			);
+			name = "payrabbit-datafono-app-iosUITests";
+			productName = "payrabbit-datafono-app-iosUITests";
+			productReference = 242FE90E24D3BB4700D42867 /* payrabbit-datafono-app-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		242FE8E524D3BB4400D42867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Keos;
+				TargetAttributes = {
+					242FE8EC24D3BB4400D42867 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					242FE90224D3BB4700D42867 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 242FE8EC24D3BB4400D42867;
+					};
+					242FE90D24D3BB4700D42867 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 242FE8EC24D3BB4400D42867;
+					};
+				};
+			};
+			buildConfigurationList = 242FE8E824D3BB4400D42867 /* Build configuration list for PBXProject "payrabbit-datafono-app-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 242FE8E424D3BB4400D42867;
+			productRefGroup = 242FE8EE24D3BB4400D42867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				242FE8EC24D3BB4400D42867 /* payrabbit-datafono-app-ios */,
+				242FE90224D3BB4700D42867 /* payrabbit-datafono-app-iosTests */,
+				242FE90D24D3BB4700D42867 /* payrabbit-datafono-app-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		242FE8EB24D3BB4400D42867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242FE8FD24D3BB4600D42867 /* LaunchScreen.storyboard in Resources */,
+				242FE8FA24D3BB4600D42867 /* Assets.xcassets in Resources */,
+				242FE8F824D3BB4400D42867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242FE90124D3BB4700D42867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242FE90C24D3BB4700D42867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242FE8E924D3BB4400D42867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242FE8F524D3BB4400D42867 /* ViewController.swift in Sources */,
+				242FE8F124D3BB4400D42867 /* AppDelegate.swift in Sources */,
+				242FE8F324D3BB4400D42867 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242FE8FF24D3BB4700D42867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242FE90824D3BB4700D42867 /* payrabbit_datafono_app_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242FE90A24D3BB4700D42867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242FE91324D3BB4700D42867 /* payrabbit_datafono_app_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		242FE90524D3BB4700D42867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242FE8EC24D3BB4400D42867 /* payrabbit-datafono-app-ios */;
+			targetProxy = 242FE90424D3BB4700D42867 /* PBXContainerItemProxy */;
+		};
+		242FE91024D3BB4700D42867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242FE8EC24D3BB4400D42867 /* payrabbit-datafono-app-ios */;
+			targetProxy = 242FE90F24D3BB4700D42867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		242FE8F624D3BB4400D42867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242FE8F724D3BB4400D42867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		242FE8FB24D3BB4600D42867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242FE8FC24D3BB4600D42867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		242FE91524D3BB4700D42867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		242FE91624D3BB4700D42867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		242FE91824D3BB4700D42867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "payrabbit-datafono-app-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Keos.payrabbit-datafono-app-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		242FE91924D3BB4700D42867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "payrabbit-datafono-app-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Keos.payrabbit-datafono-app-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		242FE91B24D3BB4700D42867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "payrabbit-datafono-app-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Keos.payrabbit-datafono-app-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/payrabbit-datafono-app-ios.app/payrabbit-datafono-app-ios";
+			};
+			name = Debug;
+		};
+		242FE91C24D3BB4700D42867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "payrabbit-datafono-app-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Keos.payrabbit-datafono-app-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/payrabbit-datafono-app-ios.app/payrabbit-datafono-app-ios";
+			};
+			name = Release;
+		};
+		242FE91E24D3BB4700D42867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "payrabbit-datafono-app-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Keos.payrabbit-datafono-app-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "payrabbit-datafono-app-ios";
+			};
+			name = Debug;
+		};
+		242FE91F24D3BB4700D42867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "payrabbit-datafono-app-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Keos.payrabbit-datafono-app-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "payrabbit-datafono-app-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242FE8E824D3BB4400D42867 /* Build configuration list for PBXProject "payrabbit-datafono-app-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242FE91524D3BB4700D42867 /* Debug */,
+				242FE91624D3BB4700D42867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242FE91724D3BB4700D42867 /* Build configuration list for PBXNativeTarget "payrabbit-datafono-app-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242FE91824D3BB4700D42867 /* Debug */,
+				242FE91924D3BB4700D42867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242FE91A24D3BB4700D42867 /* Build configuration list for PBXNativeTarget "payrabbit-datafono-app-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242FE91B24D3BB4700D42867 /* Debug */,
+				242FE91C24D3BB4700D42867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242FE91D24D3BB4700D42867 /* Build configuration list for PBXNativeTarget "payrabbit-datafono-app-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242FE91E24D3BB4700D42867 /* Debug */,
+				242FE91F24D3BB4700D42867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 242FE8E524D3BB4400D42867 /* Project object */;
+}
