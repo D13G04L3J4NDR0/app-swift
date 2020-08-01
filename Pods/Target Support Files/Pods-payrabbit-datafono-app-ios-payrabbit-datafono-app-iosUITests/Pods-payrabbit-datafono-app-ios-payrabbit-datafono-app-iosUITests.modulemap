@@ -1,0 +1,6 @@
+framework module Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests {
+  umbrella header "Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

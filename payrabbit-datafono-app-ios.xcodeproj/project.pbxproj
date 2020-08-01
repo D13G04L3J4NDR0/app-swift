@@ -15,6 +15,11 @@
 		242FE8FD24D3BB4600D42867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242FE8FB24D3BB4600D42867 /* LaunchScreen.storyboard */; };
 		242FE90824D3BB4700D42867 /* payrabbit_datafono_app_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE90724D3BB4700D42867 /* payrabbit_datafono_app_iosTests.swift */; };
 		242FE91324D3BB4700D42867 /* payrabbit_datafono_app_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE91224D3BB4700D42867 /* payrabbit_datafono_app_iosUITests.swift */; };
+		242FE92124D3D46200D42867 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE92024D3D46200D42867 /* RegisterPageViewController.swift */; };
+		242FE92324D4646D00D42867 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE92224D4646D00D42867 /* LoginViewController.swift */; };
+		39F89C34388D1A58C910BF47 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E58D61348E1F5EF8A37F6F4 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework */; };
+		7A7D848C141FB6A7614AE681 /* Pods_payrabbit_datafono_app_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58120D0EF1291B3445DE758 /* Pods_payrabbit_datafono_app_iosTests.framework */; };
+		C69380E5FEF770C5177F02FA /* Pods_payrabbit_datafono_app_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29DC20C27F2A0AAA986094B /* Pods_payrabbit_datafono_app_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,17 @@
 		242FE90E24D3BB4700D42867 /* payrabbit-datafono-app-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "payrabbit-datafono-app-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		242FE91224D3BB4700D42867 /* payrabbit_datafono_app_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payrabbit_datafono_app_iosUITests.swift; sourceTree = "<group>"; };
 		242FE91424D3BB4700D42867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		242FE92024D3D46200D42867 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterPageViewController.swift; path = Controllers/RegisterPageViewController.swift; sourceTree = "<group>"; };
+		242FE92224D4646D00D42867 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
+		2E58D61348E1F5EF8A37F6F4 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECAEFFB07F68CC92175C37E /* Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F70F64435C640D06DBC3A11 /* Pods-payrabbit-datafono-app-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payrabbit-datafono-app-ios.debug.xcconfig"; path = "Target Support Files/Pods-payrabbit-datafono-app-ios/Pods-payrabbit-datafono-app-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		A58120D0EF1291B3445DE758 /* Pods_payrabbit_datafono_app_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payrabbit_datafono_app_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29DC20C27F2A0AAA986094B /* Pods_payrabbit_datafono_app_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payrabbit_datafono_app_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C307B4C252AB8DF78E0DC692 /* Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C330F7D167BB0A96EC8511FC /* Pods-payrabbit-datafono-app-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payrabbit-datafono-app-ios.release.xcconfig"; path = "Target Support Files/Pods-payrabbit-datafono-app-ios/Pods-payrabbit-datafono-app-ios.release.xcconfig"; sourceTree = "<group>"; };
+		C4886470D39785AB40197AA6 /* Pods-payrabbit-datafono-app-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payrabbit-datafono-app-iosTests.release.xcconfig"; path = "Target Support Files/Pods-payrabbit-datafono-app-iosTests/Pods-payrabbit-datafono-app-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		F032CCCB7F41F7E8CEF1F64F /* Pods-payrabbit-datafono-app-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payrabbit-datafono-app-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-payrabbit-datafono-app-iosTests/Pods-payrabbit-datafono-app-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69380E5FEF770C5177F02FA /* Pods_payrabbit_datafono_app_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7D848C141FB6A7614AE681 /* Pods_payrabbit_datafono_app_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F89C34388D1A58C910BF47 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				242FE90624D3BB4700D42867 /* payrabbit-datafono-app-iosTests */,
 				242FE91124D3BB4700D42867 /* payrabbit-datafono-app-iosUITests */,
 				242FE8EE24D3BB4400D42867 /* Products */,
+				E011B64173E03A85C40EB059 /* Pods */,
+				6954B552B567E3DE8C86F2DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +127,8 @@
 				242FE8F924D3BB4600D42867 /* Assets.xcassets */,
 				242FE8FB24D3BB4600D42867 /* LaunchScreen.storyboard */,
 				242FE8FE24D3BB4600D42867 /* Info.plist */,
+				242FE92024D3D46200D42867 /* RegisterPageViewController.swift */,
+				242FE92224D4646D00D42867 /* LoginViewController.swift */,
 			);
 			path = "payrabbit-datafono-app-ios";
 			sourceTree = "<group>";
@@ -128,6 +151,30 @@
 			path = "payrabbit-datafono-app-iosUITests";
 			sourceTree = "<group>";
 		};
+		6954B552B567E3DE8C86F2DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B29DC20C27F2A0AAA986094B /* Pods_payrabbit_datafono_app_ios.framework */,
+				2E58D61348E1F5EF8A37F6F4 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework */,
+				A58120D0EF1291B3445DE758 /* Pods_payrabbit_datafono_app_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E011B64173E03A85C40EB059 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F70F64435C640D06DBC3A11 /* Pods-payrabbit-datafono-app-ios.debug.xcconfig */,
+				C330F7D167BB0A96EC8511FC /* Pods-payrabbit-datafono-app-ios.release.xcconfig */,
+				8ECAEFFB07F68CC92175C37E /* Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig */,
+				C307B4C252AB8DF78E0DC692 /* Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.release.xcconfig */,
+				F032CCCB7F41F7E8CEF1F64F /* Pods-payrabbit-datafono-app-iosTests.debug.xcconfig */,
+				C4886470D39785AB40197AA6 /* Pods-payrabbit-datafono-app-iosTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 242FE91724D3BB4700D42867 /* Build configuration list for PBXNativeTarget "payrabbit-datafono-app-ios" */;
 			buildPhases = (
+				D920362C50DFE21F7DEA04A8 /* [CP] Check Pods Manifest.lock */,
 				242FE8E924D3BB4400D42867 /* Sources */,
 				242FE8EA24D3BB4400D42867 /* Frameworks */,
 				242FE8EB24D3BB4400D42867 /* Resources */,
+				0E426C733D416AED677F4D3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 242FE91A24D3BB4700D42867 /* Build configuration list for PBXNativeTarget "payrabbit-datafono-app-iosTests" */;
 			buildPhases = (
+				8C55719FA67297F9C553B7D5 /* [CP] Check Pods Manifest.lock */,
 				242FE8FF24D3BB4700D42867 /* Sources */,
 				242FE90024D3BB4700D42867 /* Frameworks */,
 				242FE90124D3BB4700D42867 /* Resources */,
@@ -170,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 242FE91D24D3BB4700D42867 /* Build configuration list for PBXNativeTarget "payrabbit-datafono-app-iosUITests" */;
 			buildPhases = (
+				9A6680F382EB3D28395B951E /* [CP] Check Pods Manifest.lock */,
 				242FE90A24D3BB4700D42867 /* Sources */,
 				242FE90B24D3BB4700D42867 /* Frameworks */,
 				242FE90C24D3BB4700D42867 /* Resources */,
+				ABF032BAB4D7CDFD22C56F5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +306,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E426C733D416AED677F4D3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-payrabbit-datafono-app-ios/Pods-payrabbit-datafono-app-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-payrabbit-datafono-app-ios/Pods-payrabbit-datafono-app-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-payrabbit-datafono-app-ios/Pods-payrabbit-datafono-app-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C55719FA67297F9C553B7D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-payrabbit-datafono-app-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6680F382EB3D28395B951E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF032BAB4D7CDFD22C56F5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D920362C50DFE21F7DEA04A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-payrabbit-datafono-app-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		242FE8E924D3BB4400D42867 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				242FE92124D3D46200D42867 /* RegisterPageViewController.swift in Sources */,
 				242FE8F524D3BB4400D42867 /* ViewController.swift in Sources */,
 				242FE8F124D3BB4400D42867 /* AppDelegate.swift in Sources */,
+				242FE92324D4646D00D42867 /* LoginViewController.swift in Sources */,
 				242FE8F324D3BB4400D42867 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +589,7 @@
 		};
 		242FE91824D3BB4700D42867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F70F64435C640D06DBC3A11 /* Pods-payrabbit-datafono-app-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +607,7 @@
 		};
 		242FE91924D3BB4700D42867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C330F7D167BB0A96EC8511FC /* Pods-payrabbit-datafono-app-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +625,7 @@
 		};
 		242FE91B24D3BB4700D42867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F032CCCB7F41F7E8CEF1F64F /* Pods-payrabbit-datafono-app-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +647,7 @@
 		};
 		242FE91C24D3BB4700D42867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4886470D39785AB40197AA6 /* Pods-payrabbit-datafono-app-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +669,7 @@
 		};
 		242FE91E24D3BB4700D42867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECAEFFB07F68CC92175C37E /* Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +689,7 @@
 		};
 		242FE91F24D3BB4700D42867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C307B4C252AB8DF78E0DC692 /* Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

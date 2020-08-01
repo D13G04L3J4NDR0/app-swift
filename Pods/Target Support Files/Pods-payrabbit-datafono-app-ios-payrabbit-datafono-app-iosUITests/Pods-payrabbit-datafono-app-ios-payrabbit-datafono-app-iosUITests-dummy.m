@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests : NSObject
+@end
+@implementation PodsDummy_Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests
+@end
