@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>business</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Cuidado Personal</string>
+			<key>data</key>
+			<array>
+				<string>Cuidado Facial y Maquillaje</string>
+				<string>Peluqueria y Barberia</string>
+				<string>Estilista independiente</string>
+				<string>Terapias y masajes</string>
+				<string>Cuidado de uñas</string>
+				<string>Spa</string>
+				<string>Bronceado</string>
+				<string>Tatuajes y Piercings</string>
+				<string>Otros</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Bibidas y Alimenntos</string>
+			<key>data</key>
+			<array>
+				<string>Comidas Rapidas</string>
+				<string>Servicio de Ban</string>
+				<string>Servicios de Banquete</string>
+				<string>Panaderia</string>
+				<string>Chef Privado</string>
+				<string>Delikatessen</string>
+				<string>Bronceado</string>
+				<string>Tatuajes y Piercings</string>
+				<string>Otros</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Servicios de Reparacion</string>
+			<key>data</key>
+			<array>
+				<string>Aires Acondicionados</string>
+				<string>Contratistas</string>
+				<string>Fumigación</string>
+				<string>Jardineria</string>
+				<string>Lavado de Alfombras</string>
+				<string>Servicios de Plomeria</string>
+				<string>Servicios Electricos</string>
+				<string>Cerrajeria</string>
+				<string>Titoreria y lavado de Ropa</string>
+				<string></string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Servicios Profesionales</string>
+			<key>data</key>
+			<array>
+				<string>Asesoría</string>
+				<string>Contabilidad</string>
+				<string>Bienes Raices</string>
+				<string>Desarrollo de SW</string>
+				<string>Mecadotecnia</string>
+				<string>Servicios de Imprenta</string>
+				<string>Servicios Notariales</string>
+				<string>Otros</string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string>Otros</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Cuidado Personal</string>
+			<key>data</key>
+			<array>
+				<string>Cuidado Facial y Maquillaje</string>
+				<string>Peluqueria y Barberia</string>
+				<string>Estilista independiente</string>
+				<string>Terapias y masajes</string>
+				<string>Cuidado de uñas</string>
+				<string>Spa</string>
+				<string>Bronceado</string>
+				<string>Tatuajes y Piercings</string>
+				<string>Otros</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Cuidado Personal</string>
+			<key>data</key>
+			<array>
+				<string>Cuidado Facial y Maquillaje</string>
+				<string>Peluqueria y Barberia</string>
+				<string>Estilista independiente</string>
+				<string>Terapias y masajes</string>
+				<string>Cuidado de uñas</string>
+				<string>Spa</string>
+				<string>Bronceado</string>
+				<string>Tatuajes y Piercings</string>
+				<string>Otros</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Cuidado Personal</string>
+			<key>data</key>
+			<array>
+				<string>Cuidado Facial y Maquillaje</string>
+				<string>Peluqueria y Barberia</string>
+				<string>Estilista independiente</string>
+				<string>Terapias y masajes</string>
+				<string>Cuidado de uñas</string>
+				<string>Spa</string>
+				<string>Bronceado</string>
+				<string>Tatuajes y Piercings</string>
+				<string>Otros</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Cuidado Personal</string>
+			<key>data</key>
+			<array>
+				<string>Cuidado Facial y Maquillaje</string>
+				<string>Peluqueria y Barberia</string>
+				<string>Estilista independiente</string>
+				<string>Terapias y masajes</string>
+				<string>Cuidado de uñas</string>
+				<string>Spa</string>
+				<string>Bronceado</string>
+				<string>Tatuajes y Piercings</string>
+				<string>Otros</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Cuidado Personal</string>
+			<key>data</key>
+			<array>
+				<string>Cuidado Facial y Maquillaje</string>
+				<string>Peluqueria y Barberia</string>
+				<string>Estilista independiente</string>
+				<string>Terapias y masajes</string>
+				<string>Cuidado de uñas</string>
+				<string>Spa</string>
+				<string>Bronceado</string>
+				<string>Tatuajes y Piercings</string>
+				<string>Otros</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Cuidado Personal</string>
+			<key>data</key>
+			<array>
+				<string>Cuidado Facial y Maquillaje</string>
+				<string>Peluqueria y Barberia</string>
+				<string>Estilista independiente</string>
+				<string>Terapias y masajes</string>
+				<string>Cuidado de uñas</string>
+				<string>Spa</string>
+				<string>Bronceado</string>
+				<string>Tatuajes y Piercings</string>
+				<string>Otros</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

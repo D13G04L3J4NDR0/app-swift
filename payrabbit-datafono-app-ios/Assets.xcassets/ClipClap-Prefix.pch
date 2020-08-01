@@ -1,0 +1,57 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import <Bolts/Bolts.h>
+#import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
+
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
+#import "CCImports.h"
+//#import "CardReaderListener.h"
+
+#import "CustomDefaultTableViewCell.h"
+#import "CurrencyTextField.h"
+
+#import "HUDManager.h"
+#import "CCStyleAndColorManager.h"
+#import "AVHexColor.h"
+#import "GoogleMapsManager.h"
+
+#import "JBConstants.h"
+#import "FTLocationManager.h"
+#import "TLYShyNavBarManager.h"
+#import "AnalyticsService.h"
+
+#import "UINavigationController+SGProgress.h"
+#import "UIBarButtonItem+Badge.h"
+#import "UIAlertView+Blocks.h"
+#import "UINavigationBar+TranslucedEffect.h"
+#import "PFImageView+ClipClap.h"
+#import "NSString+ClipClap.h"
+#import "NSNumber+ClipClap.h"
+#import "UIImageView+ClipClap.h"
+#import "UIViewController+ClipClap.h"
+#import "UIButton+ClipClap.h"
+#import "UIColor+ClipClap.h"
+#import "UIImage+ClipClap.h"
+#import "PFQuery+ClipClap.h"
+#import "PFObject+ClipClap.h"
+#import "PFFile+ClipClap.h"
+#import "UISplitViewController+ClipClap.h"
+
+#endif

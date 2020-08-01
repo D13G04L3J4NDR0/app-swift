@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		242FE91324D3BB4700D42867 /* payrabbit_datafono_app_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE91224D3BB4700D42867 /* payrabbit_datafono_app_iosUITests.swift */; };
 		242FE92124D3D46200D42867 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE92024D3D46200D42867 /* RegisterPageViewController.swift */; };
 		242FE92324D4646D00D42867 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE92224D4646D00D42867 /* LoginViewController.swift */; };
+		24DF895724D52DFB006A549D /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF895624D52DFB006A549D /* CalculatorViewController.swift */; };
 		39F89C34388D1A58C910BF47 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E58D61348E1F5EF8A37F6F4 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework */; };
 		7A7D848C141FB6A7614AE681 /* Pods_payrabbit_datafono_app_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58120D0EF1291B3445DE758 /* Pods_payrabbit_datafono_app_iosTests.framework */; };
 		C69380E5FEF770C5177F02FA /* Pods_payrabbit_datafono_app_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29DC20C27F2A0AAA986094B /* Pods_payrabbit_datafono_app_ios.framework */; };
@@ -56,6 +57,7 @@
 		242FE91424D3BB4700D42867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		242FE92024D3D46200D42867 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterPageViewController.swift; path = Controllers/RegisterPageViewController.swift; sourceTree = "<group>"; };
 		242FE92224D4646D00D42867 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
+		24DF895624D52DFB006A549D /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculatorViewController.swift; path = Controllers/CalculatorViewController.swift; sourceTree = "<group>"; };
 		2E58D61348E1F5EF8A37F6F4 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECAEFFB07F68CC92175C37E /* Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F70F64435C640D06DBC3A11 /* Pods-payrabbit-datafono-app-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payrabbit-datafono-app-ios.debug.xcconfig"; path = "Target Support Files/Pods-payrabbit-datafono-app-ios/Pods-payrabbit-datafono-app-ios.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				242FE8FE24D3BB4600D42867 /* Info.plist */,
 				242FE92024D3D46200D42867 /* RegisterPageViewController.swift */,
 				242FE92224D4646D00D42867 /* LoginViewController.swift */,
+				24DF895624D52DFB006A549D /* CalculatorViewController.swift */,
 			);
 			path = "payrabbit-datafono-app-ios";
 			sourceTree = "<group>";
@@ -171,7 +174,6 @@
 				F032CCCB7F41F7E8CEF1F64F /* Pods-payrabbit-datafono-app-iosTests.debug.xcconfig */,
 				C4886470D39785AB40197AA6 /* Pods-payrabbit-datafono-app-iosTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -418,6 +420,7 @@
 				242FE8F524D3BB4400D42867 /* ViewController.swift in Sources */,
 				242FE8F124D3BB4400D42867 /* AppDelegate.swift in Sources */,
 				242FE92324D4646D00D42867 /* LoginViewController.swift in Sources */,
+				24DF895724D52DFB006A549D /* CalculatorViewController.swift in Sources */,
 				242FE8F324D3BB4400D42867 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -57,7 +57,8 @@ class LoginViewController: UIViewController {
                     sesion_user.set(name_company, forKey: "name")
                     sesion_user.set(true, forKey: "sesionUserLogin")
                     
-                    self.dismiss(animated: true, completion: nil)
+                    //self.dismiss(animated: true, completion: nil)
+                    self.performSegue(withIdentifier: "CalculatorView", sender: self)
                     
                 }else if code == 404{
                     print("Sesión incorrecta 404")

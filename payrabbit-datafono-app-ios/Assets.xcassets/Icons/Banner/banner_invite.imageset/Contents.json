@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "1480563460_31.ID-Horizontal + Oval 1 + Group + Money Box_000000_100 + 1480564711_common-share-action-outline-stroke + Money Bag_000000_100.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "1480563460_31.ID-Horizontal + Oval 1 + Group + Money Box_000000_100 + 1480564711_common-share-action-outline-stroke + Money Bag_000000_100@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "1480563460_31.ID-Horizontal + Oval 1 + Group + Money Box_000000_100 + 1480564711_common-share-action-outline-stroke + Money Bag_000000_100@3x.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
