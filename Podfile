@@ -8,7 +8,8 @@ target 'payrabbit-datafono-app-ios' do
   # Pods for payrabbit-datafono-app-ios
 
 	pod 'Alamofire'
-	pod 'SwiftyJSON'
+  pod 'SwiftyJSON'
+  pod 'SideMenu'
 
   target 'payrabbit-datafono-app-iosTests' do
     inherit! :search_paths

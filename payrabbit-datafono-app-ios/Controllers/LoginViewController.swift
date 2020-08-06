@@ -53,7 +53,7 @@ class LoginViewController: UIViewController {
                     let sesion_user = UserDefaults.standard;
                     sesion_user.set(jsonResponse?["user_id"], forKey: "user_id")
                     sesion_user.set(brd_tk, forKey: "brd_tk")
-                    sesion_user.set(id_company, forKey: "id")
+                    sesion_user.set(id_company, forKey: "commerce_id")
                     sesion_user.set(name_company, forKey: "name")
                     sesion_user.set(true, forKey: "sesionUserLogin")
                     
@@ -62,9 +62,7 @@ class LoginViewController: UIViewController {
                     
                 }else if code == 404{
                     print("Sesión incorrecta 404")
-                    
-                    self.alertInfo(msg:"Su cuenta o clave son incorrectas o aún no ha confirmado su cuenta de correo.");
-                    
+                    self.alertInfo(msg:"Su cuenta o clave son incorrectas o aún no ha confirmado su cuenta de correo.")
                 }
                 
                 break
@@ -78,19 +76,19 @@ class LoginViewController: UIViewController {
     
     func validarCampos (email:String, pwd:String){
         if email == "" || pwd == "" {
-            alertInfo(msg:"Digite email y contraseña");
-            return;
+            alertInfo(msg:"Digite email y contraseña")
+            return
         }
     }
     
     func alertInfo(msg: String){
         
-        let alerta = UIAlertController(title: "Alerta", message: msg, preferredStyle: UIAlertController.Style.alert);
-        let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil);
+        let alerta = UIAlertController(title: "Alerta", message: msg, preferredStyle: UIAlertController.Style.alert)
+        let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil)
         
-        alerta.addAction(okAction);
+        alerta.addAction(okAction)
         
-        self.present(alerta, animated:true, completion:nil);
+        self.present(alerta, animated:true, completion:nil)
     }
     
 

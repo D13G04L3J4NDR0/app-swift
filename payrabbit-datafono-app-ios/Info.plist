@@ -47,6 +47,16 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>El programa requiere permisos del GPS</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>El programa requiere permisos del GPS</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>El programa requiere permisos del GPS</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app uses your Microphone to allow Voice over IP communication with the Program Admin system</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

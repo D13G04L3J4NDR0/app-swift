@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

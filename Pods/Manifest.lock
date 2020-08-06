@@ -1,16 +1,24 @@
 PODS:
   - Alamofire (5.2.2)
+  - SideMenu (6.4.9)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 5.2)
+  - Alamofire
+  - SideMenu
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - SideMenu
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  SideMenu: 8ef57a3cfc024a2d3fc1c036c7fe98537baec9e0
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 926cd290ce06629a2822ed418852612d4bd57629
+PODFILE CHECKSUM: 5a3a0dd2aff512602f1c12b80900c6d5e0fa6ab8
 
 COCOAPODS: 1.9.3
