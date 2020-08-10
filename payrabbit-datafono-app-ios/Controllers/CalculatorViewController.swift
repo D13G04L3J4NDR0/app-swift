@@ -17,8 +17,9 @@ class CalculatorViewController: UIViewController {
     private var temp: String = ""
     private var totalNumber: String = ""
     private var totalPayment: String = ""
+    private var descriptionPayment: String = ""
     
-    
+    @IBOutlet weak var descriptionTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         menu = SideMenuNavigationController(rootViewController: UIViewController())
@@ -61,11 +62,14 @@ class CalculatorViewController: UIViewController {
     @IBAction func sendPayment(_ sender: Any) {
         print("Clicked Payment Buttom")
         totalPayment = temp
+        descriptionPayment = descriptionTextField.text!
         performSegue(withIdentifier: "PaymentView", sender: self)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! PaymentViewController
         vc.totalPayment = self.totalPayment
+        vc.descriptionPayment = self.descriptionPayment
+        
     }
 }
 

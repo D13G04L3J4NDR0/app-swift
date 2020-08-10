@@ -493,6 +493,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="414" height="716"/>
                     <connections>
+                        <outlet property="descriptionTextField" destination="B5h-H3-qcX" id="twG-Uy-S54"/>
                         <outlet property="totalButton" destination="ZsC-Xm-yJU" id="HUj-9H-qV3"/>
                         <segue destination="lVx-AU-5lb" kind="modal" identifier="PaymentView" id="9l7-yl-lWi"/>
                     </connections>

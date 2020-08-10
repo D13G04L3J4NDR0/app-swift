@@ -44,14 +44,20 @@ class LoginViewController: UIViewController {
                 if code == 200{
                     print(jsonResponse)
                     
+                    let headersResponse = response.response?.allHeaderFields["X-Payrabbit-Auth"]
+                    print(headersResponse)
+                    
                     let company = jsonResponse?["company"] as! NSArray
                     let data_company = company[0] as? [String:Any]
                     let brd_tk = data_company?["brd_tk"]
                     let id_company = data_company?["id"]
                     let name_company = data_company?["name"]
                     
+                    let user_id = jsonResponse?["user_id"]
+                    
                     let sesion_user = UserDefaults.standard;
-                    sesion_user.set(jsonResponse?["user_id"], forKey: "user_id")
+                    sesion_user.set(headersResponse, forKey: "token_session")
+                    sesion_user.set(user_id, forKey: "user_id")
                     sesion_user.set(brd_tk, forKey: "brd_tk")
                     sesion_user.set(id_company, forKey: "commerce_id")
                     sesion_user.set(name_company, forKey: "name")
