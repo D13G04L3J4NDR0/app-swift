@@ -12,7 +12,8 @@ import CoreLocation
 import UIKit
 
 class PaymentViewController: UIViewController, CLLocationManagerDelegate {
-
+    @IBOutlet weak var totalPaymentLabelS: UIButton!
+    
     @IBOutlet weak var totalPaymentLabel: UIButton!
     var totalPayment:String = ""
     var descriptionPayment:String = ""
@@ -23,10 +24,13 @@ class PaymentViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        totalPaymentLabel.setTitle("TOTAL: $"+totalPayment, for: .normal)
+        totalPaymentLabelS.setTitle("TOTAL: $"+totalPayment, for: .normal)
         self.getLocation()
     }
     
+    @IBAction func sendPaymentWspS(_ sender: Any) {
+        alertInfo(title:"Costo de la transacción" ,msg: "¿Quién asume el costo de la transcción?")
+    }
     @IBAction func sendPaymentWsp(_ sender: Any){
         alertInfo(title:"Costo de la transacción" ,msg: "¿Quién asume el costo de la transcción?")
     }
@@ -151,9 +155,9 @@ class PaymentViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func alertInfoDos(title:String, msg: String){
-        
-        
         let alerta = UIAlertController(title: title, message: msg, preferredStyle: UIAlertController.Style.alert)
+        let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil)
+        alerta.addAction(okAction)
         self.present(alerta, animated:true, completion:nil)
     }
 }

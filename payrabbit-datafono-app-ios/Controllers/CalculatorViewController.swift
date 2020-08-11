@@ -9,10 +9,11 @@
 import UIKit
 import SideMenu
 
-class CalculatorViewController: UIViewController {
+class CalculatorViewController: UIViewController, MenuControllerDelegate {
+    
     let sesion_user = UserDefaults.standard;
     @IBOutlet weak var totalButton: UIButton!
-    var menu: SideMenuNavigationController?
+    private var menu:SideMenuNavigationController?
     
     private var temp: String = ""
     private var totalNumber: String = ""
@@ -22,20 +23,34 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var descriptionTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        menu = SideMenuNavigationController(rootViewController: UIViewController())
+        let menuList = MenuListController(with: ["Cargar Documentos","Activar Cuenta Bancaria","Cerrar Sesión"])
+        menuList.delegate = self
+        
+        menu = SideMenuNavigationController(rootViewController: menuList)
+        
         SideMenuManager.default.rightMenuNavigationController = menu
         SideMenuManager.default.addPanGestureToPresent(toView: self.view)
     }
     
-    @IBAction func logoutButtonTapped(_ sender: Any) {
-        print("Button Cerrar Sesión")
+    @IBAction func didTapMenuButton(){
+        print("Menu tapped")
+        present(menu!, animated: true)
         
-        sesion_user.set(false, forKey: "sesionUserLogin")
-        self.dismiss(animated:true , completion: nil)
     }
     
-    @IBAction func didTapMenu(){
-        present(menu!, animated: true)
+    func didSelectMenuItem(name: String) {
+        menu?.dismiss(animated: true, completion:{
+            [weak self] in
+            if name == "Cargar Documentos"{
+                print("Cargar Documentos")
+            }else if name == "Activar Cuenta Bancaria"{
+                print("Activar Cuenta Bancaria")
+            }
+            else if name == "Cerrar Sesión"{
+                self?.sesion_user.set(false, forKey: "sesionUserLogin")
+                self?.dismiss(animated:true , completion: nil)
+            }
+        })
     }
     
     @IBAction func numberAction(_ sender: UIButton){
@@ -63,7 +78,7 @@ class CalculatorViewController: UIViewController {
         print("Clicked Payment Buttom")
         totalPayment = temp
         descriptionPayment = descriptionTextField.text!
-        performSegue(withIdentifier: "PaymentView", sender: self)
+        performSegue(withIdentifier: "PayView", sender: self)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! PaymentViewController
@@ -73,18 +88,48 @@ class CalculatorViewController: UIViewController {
     }
 }
 
+protocol MenuControllerDelegate {
+    func didSelectMenuItem(name:String)
+}
+
 class MenuListController: UITableViewController{
-    var items = ["Cargar documentos", "Activar cuenta bancaria"]
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    public var delegate: MenuControllerDelegate?
+    let menuItems: [String]
+    
+    init(with menuItems: [String]){
+        self.menuItems = menuItems
+        super.init(nibName: nil, bundle: nil)
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items.count
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.backgroundColor = .darkGray
+        view.backgroundColor = .darkGray
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return menuItems.count
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = items[indexPath.row]
+        cell.textLabel?.text = menuItems[indexPath.row]
+        cell.textLabel?.textColor = .white
+        cell.backgroundColor = .darkGray
+        cell.contentView.backgroundColor = .darkGray
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        let selectedItem = menuItems[indexPath.row]
+        delegate?.didSelectMenuItem(name: selectedItem)
     }
 }
