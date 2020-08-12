@@ -18,6 +18,7 @@
 		242FE92124D3D46200D42867 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE92024D3D46200D42867 /* RegisterPageViewController.swift */; };
 		242FE92324D4646D00D42867 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FE92224D4646D00D42867 /* LoginViewController.swift */; };
 		24B0BF5124D9D33100395622 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0BF5024D9D33100395622 /* PaymentViewController.swift */; };
+		24B4A2C424E3542F00E930C6 /* BankAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B4A2C324E3542F00E930C6 /* BankAccountViewController.swift */; };
 		24DF895724D52DFB006A549D /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF895624D52DFB006A549D /* CalculatorViewController.swift */; };
 		39F89C34388D1A58C910BF47 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E58D61348E1F5EF8A37F6F4 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework */; };
 		7A7D848C141FB6A7614AE681 /* Pods_payrabbit_datafono_app_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58120D0EF1291B3445DE758 /* Pods_payrabbit_datafono_app_iosTests.framework */; };
@@ -59,6 +60,7 @@
 		242FE92024D3D46200D42867 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterPageViewController.swift; path = Controllers/RegisterPageViewController.swift; sourceTree = "<group>"; };
 		242FE92224D4646D00D42867 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
 		24B0BF5024D9D33100395622 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaymentViewController.swift; path = Controllers/PaymentViewController.swift; sourceTree = "<group>"; };
+		24B4A2C324E3542F00E930C6 /* BankAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountViewController.swift; sourceTree = "<group>"; };
 		24DF895624D52DFB006A549D /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculatorViewController.swift; path = Controllers/CalculatorViewController.swift; sourceTree = "<group>"; };
 		2E58D61348E1F5EF8A37F6F4 /* Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payrabbit_datafono_app_ios_payrabbit_datafono_app_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECAEFFB07F68CC92175C37E /* Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests/Pods-payrabbit-datafono-app-ios-payrabbit-datafono-app-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				242FE8FB24D3BB4600D42867 /* LaunchScreen.storyboard */,
 				242FE8FE24D3BB4600D42867 /* Info.plist */,
 				242FE92024D3D46200D42867 /* RegisterPageViewController.swift */,
+				24B4A2C324E3542F00E930C6 /* BankAccountViewController.swift */,
 				242FE92224D4646D00D42867 /* LoginViewController.swift */,
 				24DF895624D52DFB006A549D /* CalculatorViewController.swift */,
 				24B0BF5024D9D33100395622 /* PaymentViewController.swift */,
@@ -421,6 +424,7 @@
 			files = (
 				24B0BF5124D9D33100395622 /* PaymentViewController.swift in Sources */,
 				242FE92124D3D46200D42867 /* RegisterPageViewController.swift in Sources */,
+				24B4A2C424E3542F00E930C6 /* BankAccountViewController.swift in Sources */,
 				242FE8F524D3BB4400D42867 /* ViewController.swift in Sources */,
 				242FE8F124D3BB4400D42867 /* AppDelegate.swift in Sources */,
 				242FE92324D4646D00D42867 /* LoginViewController.swift in Sources */,

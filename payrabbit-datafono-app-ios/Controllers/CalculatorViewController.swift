@@ -45,6 +45,7 @@ class CalculatorViewController: UIViewController, MenuControllerDelegate {
                 print("Cargar Documentos")
             }else if name == "Activar Cuenta Bancaria"{
                 print("Activar Cuenta Bancaria")
+                self?.performSegue(withIdentifier: "BankAccountView", sender: self)
             }
             else if name == "Cerrar Sesión"{
                 self?.sesion_user.set(false, forKey: "sesionUserLogin")
@@ -81,10 +82,12 @@ class CalculatorViewController: UIViewController, MenuControllerDelegate {
         performSegue(withIdentifier: "PayView", sender: self)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! PaymentViewController
-        vc.totalPayment = self.totalPayment
-        vc.descriptionPayment = self.descriptionPayment
         
+        if segue.identifier == "PayView" {
+            let vc = segue.destination as! PaymentViewController
+            vc.totalPayment = self.totalPayment
+            vc.descriptionPayment = self.descriptionPayment
+        }
     }
 }
 
