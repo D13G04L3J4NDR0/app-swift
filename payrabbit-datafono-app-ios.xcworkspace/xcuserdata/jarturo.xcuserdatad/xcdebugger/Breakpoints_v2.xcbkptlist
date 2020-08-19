@@ -20,5 +20,53 @@
             landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFE70731-E8BC-4378-B81D-A05C17DCEF22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "payrabbit-datafono-app-ios/Controllers/BankAccountViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "onClickButtonSave(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DFE70731-E8BC-4378-B81D-A05C17DCEF22 - 922df3905ad8bd95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "payrabbit_datafono_app_ios.BankAccountViewController.onClickButtonSave(Any) -&gt; ()"
+                  moduleName = "payrabbit-datafono-app-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jarturo/Documents/paypabbit/mobile/payrabbit-datafono-app-ios/payrabbit-datafono-app-ios/Controllers/BankAccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "2265">
+               </Location>
+               <Location
+                  uuid = "DFE70731-E8BC-4378-B81D-A05C17DCEF22 - 922df3905ad8bd95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "payrabbit_datafono_app_ios.BankAccountViewController.onClickButtonSave(Any) -&gt; ()"
+                  moduleName = "payrabbit-datafono-app-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jarturo/Documents/paypabbit/mobile/payrabbit-datafono-app-ios/payrabbit-datafono-app-ios/Controllers/BankAccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "5837">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

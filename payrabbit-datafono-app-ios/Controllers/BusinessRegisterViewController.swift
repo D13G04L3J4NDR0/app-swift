@@ -1,18 +1,14 @@
 //
-//  RegisterPageViewController.swift
+//  BusinessRegisterViewController.swift
 //  payrabbit-datafono-app-ios
 //
-//  Created by Jarturo on 30/07/20.
+//  Created by Jarturo on 18/08/20.
 //  Copyright © 2020 Keos. All rights reserved.
 //
 
 import UIKit
-import Alamofire
 
-class RegisterPageViewController: UIViewController {
-
-    @IBOutlet weak var userNumDocTextField: UITextField!
-    @IBOutlet weak var DocTypeButtonText: UIButton!
+class BusinessRegisterViewController: UIViewController {
     
     let transparentView = UIView()
     let tableView = UITableView()
@@ -20,14 +16,30 @@ class RegisterPageViewController: UIViewController {
     var selectedButton = UIButton()
     var dataSource = [String]()
     
+    @IBOutlet weak var docTypeText: UIButton!
     var docType = ""
-    
+
+    @IBOutlet weak var TaxTypeText: UIButton!
+    @IBOutlet weak var docTypeButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(CellClass.self, forCellReuseIdentifier: "Cell")
+    }
+    
+    @IBAction func onClickButtonDocType(_ sender: Any) {
+        
+        dataSource = ["NIT"]
+        selectedButton = docTypeText
+        addTransparentView(frame: docTypeText.frame)
+    }
+    
+    @IBAction func onClickButtonTaxType(_ sender: Any) {
+        dataSource = ["IVA Regular", "IVA Excluido","IVA Reducido", "IVA Excento","IVA Ampliado"]
+        selectedButton = TaxTypeText
+        addTransparentView(frame: TaxTypeText.frame)
     }
     
     func addTransparentView(frame: CGRect){
@@ -58,60 +70,10 @@ class RegisterPageViewController: UIViewController {
             self.tableView.frame = CGRect(x: frames.origin.x, y: frames.origin.y + frames.height, width: frames.width, height: 0)
         }, completion: nil)
     }
-    
-    func alertMessage(msg:String)
-    {
-        
-        let alerta = UIAlertController(title: "Alerta", message: msg, preferredStyle: UIAlertController.Style.alert);
-        let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil);
-        
-        alerta.addAction(okAction);
-        
-        self.present(alerta, animated:true, completion:nil);
-        
-    }
-    
-    func validarCampos(emailText:String, pwdText:String, numDocText:String)
-    {
-        if numDocText == ""
-        {
-            alertMessage(msg: "El campo Número de documento es obligatorio");
-            return;
-        }
-        if emailText == ""
-        {
-            alertMessage(msg: "El campo Email es obligatorio");
-            
-            return;
-        }
-        if pwdText == ""
-        {
-            alertMessage(msg: "El campo Contraseña es obligatorio");
-            return;
-        }
-        
-    }
-    
-    func alertSuccess() {
-        let alerta = UIAlertController(title: "Alerta", message: "Registro correcto", preferredStyle: UIAlertController.Style.alert);
-        let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default){
-            action in self.dismiss(animated: true, completion: nil);
-        }
-        alerta.addAction(okAction);
-        self.present(alerta, animated:true, completion:nil);
-    }
-    @IBAction func onClickDocType(_ sender: Any) {
-        dataSource = ["Documento de identidad", "Pasaporte"]
-        selectedButton = DocTypeButtonText
-        addTransparentView(frame: DocTypeButtonText.frame)
-    }
-
-    @IBAction func onClickButtonOK(_ sender: Any) {
-        self.performSegue(withIdentifier: "DocumentsRegisterView", sender: self)
-    }
 }
 
-extension RegisterPageViewController: UITableViewDelegate, UITableViewDataSource{
+
+extension BusinessRegisterViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataSource.count
     }
