@@ -879,36 +879,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="front_cedula" translatesAutoresizingMaskIntoConstraints="NO" id="WoZ-AP-vfL">
-                                <rect key="frame" x="87" y="127" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front_cedula" translatesAutoresizingMaskIntoConstraints="NO" id="WoZ-AP-vfL">
+                                <rect key="frame" x="87" y="178" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="wFz-aj-bIa"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back_cedula" translatesAutoresizingMaskIntoConstraints="NO" id="Vjt-5c-6i2">
-                                <rect key="frame" x="87" y="307" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_cedula" translatesAutoresizingMaskIntoConstraints="NO" id="Vjt-5c-6i2">
+                                <rect key="frame" x="87" y="324" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="3a7-4S-hPl"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facerecognition" translatesAutoresizingMaskIntoConstraints="NO" id="vHt-Hu-4FX">
-                                <rect key="frame" x="87" y="476" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facerecognition" translatesAutoresizingMaskIntoConstraints="NO" id="vHt-Hu-4FX">
+                                <rect key="frame" x="87" y="470" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Woh-lS-euK"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIp-QM-KFv">
-                                <rect key="frame" x="81" y="638" width="253" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Presiona las ilustraciones, asegurate de enfocar bien la cámara" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="898-3t-RJ9">
+                                <rect key="frame" x="60" y="97" width="294" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="dvT-JE-8eT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIp-QM-KFv">
+                                <rect key="frame" x="60" y="620" width="294" height="36"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="g7x-3h-zpr"/>
+                                </constraints>
                                 <state key="normal" title="Siguiente"/>
                                 <connections>
                                     <action selector="onClickButtonNext:" destination="TTb-P5-Kfq" eventType="touchUpInside" id="jWn-K2-T9I"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Presiona las ilustraciones, asegurate de enfocar bien la cámara" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="898-3t-RJ9">
-                                <rect key="frame" x="81" y="44" width="246" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vHt-Hu-4FX" firstAttribute="leading" secondItem="REz-NA-RGg" secondAttribute="leadingMargin" constant="67" id="65f-xW-O4R"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WoZ-AP-vfL" secondAttribute="trailing" constant="67" id="8ih-0x-mPi"/>
+                            <constraint firstItem="Vjt-5c-6i2" firstAttribute="top" secondItem="WoZ-AP-vfL" secondAttribute="bottom" constant="18" id="9op-HW-JWQ"/>
+                            <constraint firstItem="898-3t-RJ9" firstAttribute="top" secondItem="hVD-vN-Ulg" secondAttribute="bottom" constant="9" id="9wn-KM-tt3"/>
+                            <constraint firstItem="WoZ-AP-vfL" firstAttribute="top" secondItem="898-3t-RJ9" secondAttribute="bottom" constant="18" id="Auu-Jr-Z08"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RIp-QM-KFv" secondAttribute="trailing" constant="40" id="Lhs-mz-JJf"/>
+                            <constraint firstItem="RIp-QM-KFv" firstAttribute="leading" secondItem="REz-NA-RGg" secondAttribute="leadingMargin" constant="40" id="NMO-3U-jtl"/>
+                            <constraint firstItem="Vjt-5c-6i2" firstAttribute="leading" secondItem="REz-NA-RGg" secondAttribute="leadingMargin" constant="67" id="VUV-4O-8m9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vHt-Hu-4FX" secondAttribute="trailing" constant="67" id="ZcB-c5-n5u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="898-3t-RJ9" secondAttribute="trailing" constant="40" id="bwh-6U-1oa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vjt-5c-6i2" secondAttribute="trailing" constant="67" id="ire-XI-SH0"/>
+                            <constraint firstItem="RIp-QM-KFv" firstAttribute="top" secondItem="vHt-Hu-4FX" secondAttribute="bottom" constant="22" id="kjJ-cH-rwn"/>
+                            <constraint firstItem="vHt-Hu-4FX" firstAttribute="top" secondItem="Vjt-5c-6i2" secondAttribute="bottom" constant="18" id="oQS-E3-lQ0"/>
+                            <constraint firstItem="WoZ-AP-vfL" firstAttribute="leading" secondItem="REz-NA-RGg" secondAttribute="leadingMargin" constant="67" id="pXt-gh-jvF"/>
+                            <constraint firstItem="898-3t-RJ9" firstAttribute="leading" secondItem="REz-NA-RGg" secondAttribute="leadingMargin" constant="40" id="utU-9I-i4U"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7d1-Qb-lwm"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
